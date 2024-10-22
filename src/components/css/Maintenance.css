@@ -1,0 +1,53 @@
+/* Wrapper to center content on the page */
+.maintenance-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Main container styling */
+.maintenance-container {
+  max-width: 600px;
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.maintenance-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Content paragraph styling */
+.maintenance-message {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #495057;
+}
+
+/* Contact link */
+.maintenance-contact-link {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.maintenance-contact-link:hover {
+  color: #e0a800;
+  text-decoration: underline;
+}
+
+/* Signature styling */
+.maintenance-signature {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
